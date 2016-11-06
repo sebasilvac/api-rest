@@ -1,0 +1,22 @@
+{
+  "name": "api-rest",
+  "version": "1.0.0",
+  "description": "Api RESTful con Node y express",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sebastián Silva",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "crypto": "0.0.3",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
