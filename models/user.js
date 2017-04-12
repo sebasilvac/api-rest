@@ -32,7 +32,7 @@ UserSchema.pre('save', (next) => {
 		})
 	})
 
-	
+
 })
 
 UserSchema.methods.gravatar = function(){
@@ -43,51 +43,3 @@ UserSchema.methods.gravatar = function(){
 }
 
 module.exports = mongoose.model('User', UserSchema)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
