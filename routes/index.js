@@ -16,7 +16,7 @@ api.delete('/product/:product_id', 	productCtrl.deleteProduct)
  * por defecto javascript
  *
  */
-api.get('/private', auth.isAuth, function(req, res) {
+api.get('/private', auth, function(req, res) {
 
     res.status(200).send({message:'Tienes acceso '})
 
